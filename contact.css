@@ -112,8 +112,7 @@ header a:hover{
     padding: 10px;
 
 }
-
-.account button:hover{
+.account button:focus{
     border: solid 1px yellow;
     margin-left: -85px;
     width: 150px;
@@ -121,12 +120,19 @@ header a:hover{
     color: white;
     text-shadow: 0 0 5px yellow;
 }
-.account button:hover span{
+.account button:focus span{
     transform: translateY(-30px);
 }
-.account button:hover p{
+.account button:focus p{
     color: white;
 }
+.account button:focus .logout{
+    color: white;
+}
+.account button:focus h3{
+    color: white;
+}
+
 .account p{
     margin-top: -30px;
     position: absolute;
@@ -139,9 +145,6 @@ header a:hover{
     color: transparent;
     margin-top: 32px;
     transform: translateX(83px);
-}
-.account button:hover .logout{
-    color: white;
 }
 
 .login{
@@ -169,9 +172,7 @@ header a:hover{
     color: transparent;
     margin-left: 24px;
 }
-.account button:hover h3{
-    color: white;
-}
+
 .acontact{
     text-decoration-line: underline;
     text-shadow: 0 0 25px yellow;

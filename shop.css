@@ -100,51 +100,6 @@ img{
     margin-left: -30px;
     height: 400px;
 }
-.account{
-    position: absolute;
-    margin-left: 1790px;
-    margin-top: -110px;
-}
-.account button{
-    background-color: transparent;
-    height: 50px;
-    width: 50px;
-    border-radius: 10px;
-    color: rgba(255,255,255,0.2);
-    padding: 10px;
-
-}
-
-.account button:hover{
-    border: solid 1px yellow;
-    margin-left: -85px;
-    width: 150px;
-    height: 100px;
-    color: white;
-    text-shadow: 0 0 5px yellow;
-}
-.account button:hover span{
-    transform: translateY(-30px);
-}
-.account button:hover p{
-    color: white;
-}
-.account p{
-    margin-top: -30px;
-    position: absolute;
-    margin-left: 50%;
-    transform: translateX(-15%);
-    color: transparent;
-}
-.account .logout{
-    position: absolute;
-    color: transparent;
-    margin-top: 32px;
-    transform: translateX(83px);
-}
-.account button:hover .logout{
-    color: white;
-}
 
 .login{
     background-color: rgba(0,0,0,0.03);
@@ -165,15 +120,7 @@ img{
     font-size: 16px;
     font-style: italic;
 }
-.account h3{
-    position: absolute;
-    transform: translateY(-8px);
-    color: transparent;
-    margin-left: 24px;
-}
-.account button:hover h3{
-    color: white;
-}
+
 .ashop{
     text-decoration-line: underline;
     text-shadow: 0 0 25px yellow;
@@ -181,4 +128,60 @@ img{
 .pp{
     text-shadow: 0 0 5px red;
     color: red;
+}
+.account{
+    position: absolute;
+    margin-left: 1790px;
+    margin-top: -110px;
+}
+.account button{
+    background-color: transparent;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    color: rgba(255,255,255,0.2);
+    padding: 10px;
+
+}
+
+.account button:focus{
+    border: solid 1px yellow;
+    margin-left: -85px;
+    width: 150px;
+    height: 100px;
+    color: white;
+    text-shadow: 0 0 5px yellow;
+}
+.account button:focus span{
+    transform: translateY(-30px);
+}
+.account button:focus p{
+    color: white;
+}
+.account button:focus .logout{
+    color: white;
+}
+.account button:focus h3{
+    color: white;
+}
+
+.account p{
+    margin-top: -30px;
+    position: absolute;
+    margin-left: 50%;
+    transform: translateX(-15%);
+    color: transparent;
+}
+.account .logout{
+    position: absolute;
+    color: transparent;
+    margin-top: 32px;
+    transform: translateX(83px);
+}
+
+.account h3{
+    position: absolute;
+    transform: translateY(-8px);
+    color: transparent;
+    margin-left: 24px;
 }
