@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Monkey5HOP</title>
-    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="home.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
@@ -41,21 +41,49 @@
             <a class="anews" href="news.html">News</a>
             <a class="acontact" href="contact.html">Contact</a>
         </header>
-    </div>  
-
-
-<div class="container">
-    <div class="contact">
-        <p class="disable-selection">contact:</p>
-        <p>
-            <div class="d" class="disable-selection">email:</div> <div class="p"> <div id="email">michal12589@proton.me</div>
-            </div>
-            <div class="d" class="disable-selection">phone:</div> <div class="p"> <div id="phone">+48 608-880-074</div> 
-            </div>
-        </p>
+<div class="containers">
+    <div class="hcontainer"></div>
+    <div class="container">
+        <div class="login">
+            <h1>Login:</h1>
+            <br>
+            <form>
+            <input type="email" placeholder="Email" name="login" required> <br><br>
+            <input type="password" placeholder="password" name="login" required> <br><br>
+            <br>
+            <button type="submit">Login</button>
+            </form>
+        </div>
     </div>
+    <div class="container">
+        <div class="login">
+            <h1>Singup:</h1>
+            
+            <form>
+            <input type="email" placeholder="Email" name="login" required> <br><br>
+            <input type="password" id="password" placeholder="password" name="login" required> <br><br>
+            <input type="password" id="confirm_password" placeholder="repeat password" name="login" required>
+            <br><br>
+            <button type="submit">Singup</button>
+            </form>
+        </div>
+    </div>
+    <div class="hcontainer"></div>
 </div>
-
 </div>
-
+<script>
+var password = document.getElementById("password")
+    , confirm_password = document.getElementById("confirm_password");
+  
+  function validatePassword(){
+    if(password.value != confirm_password.value) {
+      confirm_password.setCustomValidity("Passwords Don't Match");
+    } else {
+      confirm_password.setCustomValidity('');
+    }
+  }
+  
+  password.onchange = validatePassword;
+  confirm_password.onkeyup = validatePassword;
+  </script>
 </body>
