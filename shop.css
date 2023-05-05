@@ -131,7 +131,7 @@ img{
 }
 .account{
     position: absolute;
-    margin-left: 1734px;
+    margin-left: 1650px;
     margin-top: -80px;
 }
 .account button{
@@ -140,7 +140,7 @@ img{
     width: 50px;
     border-radius: 10px;
     color: rgba(255,255,255,0.2);
-    padding: 10px;
+    padding: 0;
 
 }
 
@@ -176,12 +176,43 @@ img{
     position: absolute;
     color: transparent;
     margin-top: 32px;
-    transform: translateX(83px);
+    transform: translateX(90px);
 }
 
 .account h3{
     position: absolute;
     transform: translateY(-8px);
     color: transparent;
-    margin-left: 24px;
+    margin-left: 34px;
+}
+.cart{
+    position: absolute;
+    margin-left: 1750px;
+    margin-top: -80px;
+
+}
+.cart button{
+    position: absolute;
+    background-color: transparent;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    color: rgba(255,255,255,0.2);
+    padding: 10px;
+
+}
+.container button{
+    transform: translateY(-50px);
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    border: solid 0.1px yellow;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+.container p{
+    transform: translateY(-30px);
+}
+.container button:hover{
+    background-color: rgba(255,255,0,0.1);
 }
