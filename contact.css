@@ -198,3 +198,25 @@ header a:hover{
     padding: 10px;
 
 }
+input{
+    position: absolute;
+    transform: translateY(-10000px);
+}
+.contact button{
+    margin-left: 10px;
+    transform: translateY(-5px);
+    background-color: transparent;
+    border: solid 0.1px black;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+}
+.contact button:hover{
+    background-color: rgba(255, 255, 0, 0.1);
+    border: solid 0.5px yellow;
+    box-shadow: 0 0 10px black;
+}
+
+.contact button span{
+    margin-top: 4px;
+}
