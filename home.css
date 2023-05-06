@@ -79,7 +79,9 @@ header a:hover{
     padding: 0;
 
 }
-
+.account button:hover{
+    box-shadow: 0 0 10px yellow;
+}
 .account button:focus{
     border: solid 1px yellow;
     margin-left: -85px;
@@ -87,6 +89,7 @@ header a:hover{
     height: 100px;
     color: white;
     text-shadow: 0 0 5px yellow;
+    box-shadow: 0 0 10px yellow;
 }
 .account button:focus span{
     transform: translateY(-30px);
@@ -199,4 +202,13 @@ header a:hover{
     color: rgba(255,255,255,0.2);
     padding: 10px;
 
+}
+.cart button:hover{
+    box-shadow: 0 0 10px yellow;
+}
+.cart button:hover span{
+    color: rgba(255, 255, 0, 0.5);
+}
+.account button:hover span{
+    color: rgba(255, 255, 0, 0.5);
 }

@@ -115,7 +115,9 @@ img{
     padding: 0;
 
 }
-
+.account button:hover{
+    box-shadow: 0 0 10px yellow;
+}
 .account p{
     margin-top: -30px;
     position: absolute;
@@ -127,6 +129,7 @@ img{
 }
 .account button:focus .invisible{
     transform: translateY(0px);
+    box-shadow: 0 0 10px yellow;
 }
 .account .logout{
     position: absolute;
@@ -205,6 +208,9 @@ img{
     padding: 10px;
 
 }
+.cart button:hover{
+    box-shadow: 0 0 10px yellow;
+}
 .container button{
     transform: translateY(-50px);
     background-color: transparent;
@@ -220,3 +226,9 @@ img{
 .container button:hover{
     background-color: rgba(255,255,0,0.1);
 }   
+.cart button:hover span{
+    color: rgba(255, 255, 0, 0.5);
+}
+.account button:hover span{
+    color: rgba(255, 255, 0, 0.5);
+}
