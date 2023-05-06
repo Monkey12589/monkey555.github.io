@@ -129,6 +129,7 @@ img{
     text-shadow: 0 0 5px red;
     color: red;
 }
+
 .account{
     position: absolute;
     margin-left: 1650px;
@@ -168,9 +169,14 @@ img{
 .account p{
     margin-top: -30px;
     position: absolute;
-    margin-left: 50%;
-    transform: translateX(-15%);
+    margin-left: 20px;
     color: transparent;
+}
+.invisible{
+    transform: translateY(-1000px);
+}
+.account button:focus .invisible{
+    transform: translateY(0px);
 }
 .account .logout{
     position: absolute;

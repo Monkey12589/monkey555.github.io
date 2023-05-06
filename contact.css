@@ -136,9 +136,14 @@ header a:hover{
 .account p{
     margin-top: -30px;
     position: absolute;
-    margin-left: 50%;
-    transform: translateX(-15%);
+    margin-left: 20px;
     color: transparent;
+}
+.invisible{
+    transform: translateY(-1000px);
+}
+.account button:focus .invisible{
+    transform: translateY(0px);
 }
 .account .logout{
     position: absolute;
